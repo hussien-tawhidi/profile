@@ -1,0 +1,795 @@
+@media(max-width:1200px) {
+    /* about me */
+    .about-center {
+        /* min-width: 100%; */
+        display: block;
+    }
+    .about-center h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .about-center h6 {
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+    .about-center p {
+        padding-top: 7px;
+        font-size: 14px;
+    }
+    .about-center a {
+        padding: 15px 25px;
+        width: 15vw;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .left-img {
+        width: 200px;
+        margin-left: 2vw;
+    }
+    .right-img {
+        padding-left: 16px;
+        position: absolute;
+        bottom: -10vh;
+        right: 2vw;
+        width: 300px;
+    }
+    .a-p-t-text h1 {
+        line-height: 6vh;
+    }
+    .icon {
+        left: 5vw;
+        top: 5vw;
+        width: 5vw;
+        height: 3vh;
+    }
+    .services-content img {
+        width: 100px;
+        padding: 0 0 10vh 2vw;
+    }
+    .icon svg {
+        width: 50px;
+        height: 50px;
+    }
+    .services-content p {
+        font-size: 1.3vw;
+    }
+    .services-conten-first h6 {
+        font-size: 2vw;
+        line-height: 1vh;
+    }
+    .services-conten-first h1 {
+        padding: 1vh 0;
+    }
+    .services-conten-first p {
+        font-size: 1.3vw;
+        line-height: 3vh;
+    }
+    .services-content-last h1 {
+        font-size: 3vw;
+    }
+    .services-content-last a {
+        font-size: 2vw;
+    }
+    .testimonial-content {
+        padding: 5vh 5vw;
+    }
+    .edu-single-content h3 {
+        font-size: 2vw;
+    }
+    .testmonial-text h1 {
+        line-height: 2vh;
+        margin-bottom: 4vh;
+    }
+    .testimonial-text-slider p {
+        font-size: 2vw;
+        line-height: 4vh;
+    }
+    .languages h1,
+    .programming h1,
+    .graphic h1 {
+        color: #ce3636;
+        margin-top: 4vh;
+        font-size: 3vw;
+    }
+    .about-tow-text p {
+        font-size: 1.6vw;
+    }
+    .contact {
+        padding: 4vw;
+    }
+    .contact-title {
+        padding: 3vw 2vw;
+        width: 80%;
+    }
+    .contact-title h1 {
+        font-size: 4vw;
+        line-height: 8vh;
+    }
+    .contact-content p {
+        line-height: 4vh;
+        font-size: 2vw;
+    }
+    .phone,
+    .gmail-contact {
+        height: 15vh;
+    }
+}
+
+
+/* ****************************************************************************************************************** */
+
+@media(max-width:992px) {
+    .logo {
+        display: none;
+        pointer-events: none;
+    }
+    .header {
+        background-color: #fff;
+        height: 60px;
+        transition: all .4s ease-in-out;
+    }
+    .mobile-verion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    .descktop-menu {
+        background-color: #fff;
+        position: fixed;
+        top: 60px;
+        right: 0;
+        left: 0;
+        min-width: 100%;
+        transition: all .4s ease-in-out;
+    }
+    .nav {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        pointer-events: visible;
+        transform: translateX(0);
+        transition: all .4s ease-in-out;
+    }
+    .descktop-menu a {
+        display: inline-block;
+        color: #333232;
+        margin-left: 0;
+        padding-bottom: 10px;
+        opacity: 1;
+        pointer-events: visible;
+        transition: all .5s ease-in-out;
+    }
+    .descktop-menu a:nth-of-type(1) {
+        transition-delay: .2s;
+    }
+    .descktop-menu a:nth-of-type(2) {
+        transition-delay: .3s;
+    }
+    .descktop-menu a:nth-of-type(3) {
+        transition-delay: .4s;
+    }
+    .descktop-menu a:nth-of-type(4) {
+        transition-delay: .5s;
+    }
+    .descktop-menu a:nth-of-type(5) {
+        transition-delay: .6s;
+    }
+    .descktop-menu a:nth-of-type(6) {
+        transition-delay: .7s;
+    }
+    .descktop-menu a:nth-of-type(7) {
+        transition-delay: .8s;
+    }
+    /* show menu and animations */
+    .descktop-menu.closeMainMenu {
+        opacity: 0;
+        pointer-events: none;
+        top: -50%;
+        transition: all .4s ease-in-out;
+    }
+    .descktop-menu.closeMainMenu .nav a {
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s ease-in-out;
+    }
+    .descktop-menu a::after {
+        transition: all .7s ease-in-out;
+    }
+    .nav a:hover::after {
+        width: 10%;
+    }
+    .mobile-logo img {
+        width: 40px;
+    }
+    .barger-menu {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        pointer-events: visible;
+        overflow: hidden;
+    }
+    .burgar-menu {
+        background-color: #333232;
+        width: 40px;
+        height: 4px;
+        border-radius: 4px;
+        transition: all .3s ease-in-out;
+    }
+    .burgar-menu::after,
+    .burgar-menu::before {
+        content: "";
+        background-color: #333232;
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        border-radius: 4px;
+        transition: all .3s ease-in-out;
+    }
+    .burgar-menu::after {
+        transform: translateY(-12px);
+    }
+    .burgar-menu::before {
+        transform: translateY(12px);
+    }
+    .barger-menu.closeMenu .burgar-menu {
+        transform: translateX(-40px);
+        background-color: transparent;
+        transition: all .3s ease-in-out;
+    }
+    .barger-menu.closeMenu .burgar-menu::after {
+        transform: rotate(45deg) translate(35px, -35px);
+        transition: all .3s ease-in-out;
+    }
+    .barger-menu.closeMenu .burgar-menu::before {
+        transform: rotate(-45deg) translate(35px, 35px);
+        transition: all .3s ease-in-out;
+    }
+    .home-intro-content {
+        height: 100%;
+    }
+    .home-intro-texts {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+    }
+    .home-intro-texts h6 {
+        padding-top: 5vw;
+        font-size: 3vw;
+    }
+    .home-intro-img {
+        display: none;
+        pointer-events: none;
+    }
+    .about-left {
+        padding-top: 5vh;
+    }
+    .left-img {
+        width: 300px;
+        margin-left: 5vw;
+        z-index: 1;
+    }
+    .left-img {
+        width: 30vw;
+        margin-left: 5vw;
+        z-index: 1;
+    }
+    .left-red-shape {
+        height: 20vh;
+        width: 20vw;
+        top: 0;
+        left: 20%;
+    }
+    .left-border-fff {
+        position: absolute;
+        bottom: 0;
+        left: 55%;
+        width: 15vw;
+        height: 20vh;
+    }
+    .about-right {
+        display: none;
+        pointer-events: none;
+    }
+    .about-center {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-center p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .about-center a {
+        padding: 1vw 3vw;
+        width: 15vw;
+        border-radius: 5px;
+        font-size: 2vw;
+        margin-top: 20px;
+    }
+    .about-center h1 {
+        font-size: 7vw;
+    }
+    .about-center h6 {
+        font-size: 3vw;
+    }
+    .about-tow {
+        padding: 10vh 0 60vh 0;
+    }
+    .about-tow-text h6 {
+        font-size: 3vw;
+        padding-bottom: .5vh;
+    }
+    .about-tow-text h1 {
+        line-height: 5vh;
+        font-weight: 600;
+        margin-bottom: 1vh;
+    }
+    .about-tow-text p {
+        font-size: 2vw;
+        line-height: 3vh;
+        padding-right: 2vw;
+    }
+    .about-tow-range {
+        margin-top: 3vh;
+        padding-left: 0%;
+    }
+    .a-three-img {
+        margin-bottom: 4vw;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .a-p-t-text h6 {
+        font-size: 3vw;
+        padding-bottom: 1vh;
+    }
+    .a-p-t-text h1 {
+        font-size: 5vw;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 7vh;
+        margin-bottom: 2vh;
+    }
+    .a-p-t-text a {
+        font-size: 3vw;
+        padding: 1vw;
+    }
+    .a-three-img-texts p,
+    .a-three-img-texts a {
+        padding-left: 10px;
+        font-size: 3vw;
+    }
+    .testimonial-slider {
+        width: 70%;
+        padding: 4vh;
+    }
+    .testimonial-arrows a {
+        font-size: 3vw;
+    }
+    .blog-btn {
+        padding: 1vh 3vw;
+    }
+    .single-range-text h6 {
+        font-size: 2.5vw;
+    }
+    .blog-title h6 {
+        font-size: 20px;
+    }
+    .blog-title h1 {
+        font-size: 30px;
+        padding: 1.5vh 0 1vh 0;
+    }
+    .blog-title p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 5vh;
+    }
+    .blog-texts h1 {
+        font-size: 30px;
+        line-height: 5vh;
+    }
+    .blog-btn {
+        padding: .4vh 3vw;
+    }
+    .blog-sub-content {
+        width: 100%;
+        height: 100%;
+        padding: 2vw;
+    }
+    .blog-sub-content p {
+        line-height: 2vh;
+        font-size: 1.4vw;
+    }
+    .blog-sub-content h3 {
+        font-size: 3vw;
+        line-height: 3.5vh;
+    }
+    .blog-sub-content p {
+        line-height: 4vh;
+        font-size: 3vw;
+    }
+    .blog-sub-content h6 {
+        margin-top: 7vw;
+        font-size: 5vw;
+        letter-spacing: 2px;
+    }
+    .blog-sub-content h3 {
+        font-size: 6vw;
+        line-height: 6vh;
+        letter-spacing: 3px;
+        margin-top: 5vh;
+    }
+    .blog-sub-content ul {
+        margin-left: 4vw;
+    }
+    .blog-sub-content ul li {
+        padding: 2vw;
+        font-size: 5vw;
+    }
+}
+
+
+/* **************************************************************************************************************** */
+
+@media(max-width:768px) {
+    .about-tow-text h6 {
+        font-size: 4vw;
+    }
+    .about-tow-text h1 {
+        font-size: 6vw;
+    }
+    .about-tow-text p {
+        font-size: 2.7vw;
+        line-height: 3vh;
+        padding-right: 2vw;
+    }
+    .single-range-text h6 {
+        font-size: 4vw;
+    }
+    .slide-text {
+        width: 60vw;
+        height: 12vw;
+        margin-left: 5vw;
+    }
+    .home-text-slide h4 {
+        font-size: 5vw;
+    }
+    .slide-text h2 {
+        font-size: 9vw;
+    }
+    .home-btn a:first-child {
+        padding: 15px 25px;
+        font-size: 3vw;
+    }
+    .home-btn a box-icon {
+        height: 25px;
+        padding-top: 7px;
+    }
+    .aboutMe {
+        font-size: 3.5vw;
+        padding-bottom: 5px;
+    }
+    .icon svg {
+        width: 8vw;
+        height: 9vh;
+    }
+    .icon {
+        left: 5vw;
+        top: 5vw;
+    }
+    .languages h1,
+    .programming h1,
+    .graphic h1 {
+        color: #ce3636;
+        margin-top: 4vh;
+        font-size: 5vw;
+    }
+    .edu-single img {
+        width: 15vw;
+        padding-bottom: 1vh;
+    }
+    .persian h5,
+    .english h5 {
+        font-size: 3vw;
+    }
+    .edu-single-content a,
+    .cSharp .edu-single-content h6 {
+        font-size: 6vw;
+    }
+    .testimonial-content {
+        padding: 3vh 3vw;
+    }
+    .testmonial-text h1 {
+        line-height: 1vh;
+        margin-bottom: 2vh;
+    }
+    .testimonial-text-slider p {
+        font-size: 2.6vw;
+        line-height: 4vh;
+    }
+    .testimonial-arrows {
+        margin-top: 10vh;
+    }
+    .blog-title h1 {
+        padding: 1.5vh 0 1vh 0;
+    }
+    .blog-title p {
+        font-size: 14px;
+        line-height: 3.5vh;
+    }
+    .blog-texts h6 {
+        font-size: 3vw;
+    }
+    .blog-btn {
+        padding: .2vh 3vw;
+    }
+    .blog-sub-content {
+        width: 100%;
+        height: 100%;
+        padding: 2vw;
+    }
+    .blog-sub-content p {
+        line-height: 2vh;
+        font-size: 1.4vw;
+    }
+    .blog-sub-content h3 {
+        font-size: 3vw;
+        line-height: 3.5vh;
+    }
+    .blog-sub-content p {
+        line-height: 4vh;
+        font-size: 3vw;
+    }
+    .blog-sub-content h6 {
+        margin-top: 7vw;
+        font-size: 5vw;
+        letter-spacing: 2px;
+    }
+    .blog-sub-content h3 {
+        font-size: 6vw;
+        line-height: 6vh;
+        letter-spacing: 3px;
+        margin-top: 5vh;
+    }
+    .blog-sub-content ul {
+        margin-left: 4vw;
+    }
+    .blog-sub-content ul li {
+        padding: 2vw;
+        font-size: 5vw;
+    }
+    .services-content p {
+        font-size: 3vw;
+    }
+    .services-conten-first h6 {
+        font-size: 3vw;
+        line-height: 1vh;
+    }
+    .services-conten-first h1 {
+        font-size: 5vw;
+        padding: 1vh 0;
+    }
+    .services-conten-first p {
+        font-size: 1.8vw;
+        line-height: 3vh;
+    }
+    .services-content-last h1 {
+        font-size: 4vw;
+    }
+    .blog-content {
+        margin-bottom: 4vh;
+    }
+    .contact {
+        padding: 3vw;
+    }
+    .contact-title {
+        padding: 3vw 2vw;
+        width: 80%;
+    }
+    .contact-title h1 {
+        font-size: 5vw;
+        line-height: 6vh;
+    }
+    .phone span,
+    .gmail-contact span {
+        font-size: 5vw;
+    }
+    .phone-text h4,
+    .gmail-text h4,
+    .contact-title h6 {
+        font-size: 3.3vw;
+    }
+    .phone-text h2,
+    .gmail-text h2 {
+        font-size: 4vw;
+    }
+    .contact-content p {
+        line-height: 4vh;
+        font-size: 3vw;
+    }
+    .phone,
+    .gmail-contact {
+        height: 10vh;
+    }
+    .contact-submit-btn {
+        font-size: 2vw;
+        width: 30vw;
+        height: 7vw;
+    }
+    .footer-shape-for-logo {
+        position: absolute;
+        top: -3%;
+        left: 10%;
+        width: 20vw;
+        height: 20vw;
+    }
+    .connect a {
+        margin: 1vw;
+        font-size: 2.5vw;
+    }
+}
+
+
+/* ****************************************************************************************************************** */
+
+@media(max-width:480px) {
+    .f-s-m-content a {
+        font-size: 4vw;
+        padding-right: 2vw;
+    }
+    .f-s-m-content span,
+    .f-s-m-content p {
+        display: none;
+        pointer-events: none;
+    }
+    .home-intro-texts h1 {
+        font-size: 12vw;
+        padding: 2vh 0;
+    }
+    .home-intro-texts {
+        width: 100%;
+        height: 100vh;
+        padding-left: 5%;
+    }
+    .home-intro-texts h6 {
+        padding-top: 5vw;
+        font-size: 6vw;
+    }
+    .home-intro-img {
+        display: none;
+        pointer-events: none;
+    }
+    .about-tow {
+        padding: 5vh 0 60vh 0;
+    }
+    .about-tow-text h6 {
+        font-size: 4vw;
+        padding-bottom: .5vh;
+    }
+    .about-tow-text h1 {
+        line-height: 3.5vh;
+        font-size: 5vw;
+    }
+    .single-range-text h6,
+    .about-tow-text p {
+        font-size: 3.5vw;
+    }
+    .about-tow-text h6 {
+        padding-bottom: 2vh;
+    }
+    .aboutMe::after {
+        display: none;
+        pointer-events: none;
+    }
+    .gmail {
+        margin-top: 2vh;
+    }
+    .gmail p {
+        font-size: 3vw;
+    }
+    .gmail::after {
+        display: none;
+        pointer-events: none;
+    }
+    .icon {
+        left: 8vw;
+        top: 9vw;
+    }
+    .testimonial-arrows {
+        margin-top: 5vh;
+    }
+    .edu-single-content h6,
+    .edu-single-content h3,
+    .edu-single-content h5 {
+        font-size: 4vw;
+    }
+    .services-conten-first h6 {
+        font-size: 3.2vw;
+        line-height: 1vh;
+    }
+    .services-conten-first h1 {
+        font-size: 6vw;
+        padding: 1vh 0;
+    }
+    .services-conten-first p {
+        font-size: 2.5vw;
+        line-height: 2.5vh;
+    }
+    .services-content-last h1 {
+        font-size: 4vw;
+    }
+    .services-content-last a {
+        font-size: 2.5vw;
+    }
+    .services-content p {
+        font-size: 3vw;
+    }
+    .services-content img {
+        width: 70px;
+        padding: 0 0 3vh 2vw;
+    }
+    .blog-sub-content p {
+        line-height: 3vh;
+    }
+    .blog-sub-content h3 {
+        line-height: 4vh;
+    }
+    .a-p-t-text {
+        margin-top: -60vh;
+        margin-bottom: 5vh;
+    }
+    .footer {
+        height: 20vh;
+    }
+    .contact-title h1 {
+        line-height: 5vh;
+    }
+    .contact-title h6 {
+        font-size: 3vw;
+    }
+    .contact-content p {
+        line-height: 4vh;
+        font-size: 3vw;
+    }
+    .phone,
+    .gmail-contact {
+        height: 10vh;
+    }
+    .phone-text h4,
+    .gmail-text h4 {
+        font-size: 2.5vw;
+    }
+    .phone-text h2,
+    .gmail-text h2 {
+        font-size: 3vw;
+    }
+    .footer-shape-for-logo {
+        top: -1%;
+    }
+    .connect a {
+        font-size: 3.5vw;
+    }
+    .designed p {
+        font-size: 2vw;
+    }
+}
